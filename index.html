@@ -2,7 +2,24 @@
 <html lang="en">
 	<head>
 	<title>About</title>
+  <style type="text/css">
+
+    #submitbutton{
+      background-color: black;
+      color: white;
+      font-family: Consolas;
+      width: 300px;
+      text-align: center;
+      padding: 5px 10px 5px 10px;
+
+    }
+    #submitbutton:hover{
+
+      background-color: #696a6d;
+    }
+    </style>
 	<meta charset="utf-8">
+
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
 	<meta name="description" content="Your description">
@@ -13,7 +30,7 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/touchTouch.css" type="text/css" media="screen">
 	<link rel="stylesheet" href="css/kwicks-slider.css" type="text/css" media="screen">
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+	<!--<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>-->
 	<script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/superfish.js"></script>
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
@@ -59,7 +76,8 @@
           <div class="span12">
         <div class="navbar navbar_">
               <div class="container">
-            <h1 class="brand brand_"><a href="index.html"><img alt="" src="img/logo.gif"> </a></h1>
+            <h1 class="brand brand_"><a href="index.html"><img alt="" src="img/logo.gif" style="height: 101px;margin-top: -20px;"> </a>
+                                     <a href="index.html"><img alt="" src="img/logo2.png" style="height: 101px;margin-top: -20px;"> </a></h1>
             <a class="btn btn-navbar btn-navbar_" data-toggle="collapse" data-target=".nav-collapse_">Menu <span class="icon-bar"></span> </a>
             <div class="nav-collapse nav-collapse_  collapse">
                   <ul class="nav sf-menu">
@@ -100,7 +118,7 @@
         <div class="block-slogan">
               <h2>Welcome!</h2>
               <div>
-            <p><a href="http://blog.templatemonster.com/free-website-templates/ " target="_blank" class="link-1">Click here</a> for more info about this free website template created by TemplateMonster.com. This is a Bootstrap template that goes with several layout options (for desktop, tablet, smartphone landscape and portrait) to fit all popular screen resolutions. The PSD source files of this template are available for free for the registered members of TemplateMonster.com. Feel free to get them!</p>
+            <p> for more info about this free website template created by TemplateMonster.com. This is a Bootstrap template that goes with several layout options (for desktop, tablet, smartphone landscape and portrait) to fit all popular screen resolutions. The PSD source files of this template are available for free for the registered members of TemplateMonster.com. Feel free to get them!</p>
           </div>
             </div>
       </div>
@@ -109,7 +127,7 @@
       
       <!--============================== content =================================-->
       
-      <div id="content" class="content-extra"><div class="ic">More Website Templates @ TemplateMonster.com. November19, 2012!</div>
+  <!--    <div id="content" class="content-extra"><div class="ic">More Website Templates @ TemplateMonster.com. November19, 2012!</div>
     <div class="row-1">
           <div class="container">
         <div class="row">
@@ -202,17 +220,18 @@
         </div>
   </div>
     </div>
-
+                      -->
 <!--============================== footer =================================-->
-<footer>
+<footer style="background-color:white;">
       <div class="container clearfix">
-    <ul class="list-social pull-right">
-          <li><a class="icon-1" href="#"></a></li>
+      <form method = "post" action = "fill_form.html" ><input type"submit" value="Apply for membership" id="submitbutton"></form>
+    <ul class="list-social pull-right" style="margin-top: -50px;">
+          <li><a class="icon-1" href="https://www.facebook.com/PhoneixCSIDTU"></a></li>
           <li><a class="icon-2" href="#"></a></li>
           <li><a class="icon-3" href="#"></a></li>
           <li><a class="icon-4" href="#"></a></li>
         </ul>
-    <div class="privacy pull-left">Website Template designed by <a href="http://www.templatemonster.com/" target="_blank" rel="nofollow">TemplateMonster.com</a> </div>
+    <!--<div class="privacy pull-left">Website Template designed by <a href="http://www.templatemonster.com/" target="_blank" rel="nofollow">TemplateMonster.com</a> </div>-->
   </div>
     </footer>
 <script type="text/javascript" src="js/bootstrap.js"></script>
